@@ -1,0 +1,785 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adolfo Luzardo Cabrera Personal Portfolio</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<!--<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div>-->
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>home</span></a></li>
+										<li><a class="scroll" href="#about"><span>about</span></a></li>
+										<li><a class="scroll" href="#services"><span>services</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
+										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
+										<li><a class="scroll" href="#blog"><span>blog</span></a></li>
+										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="col-md-5 banner-left">
+				<img src="images/1.png" alt=""/>
+			</div>
+			<div class="col-md-7 banner-right">
+				<h1>I’M ADOLFO</h1>
+				<div class="border"></div>
+				<h2>TELECOM ENGINEER</h2>
+				<a href="#">DOWNLOAD MY RESUME</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>Hi!
+
+My name is Adolfo Luzardo and I was born in Lanzarote, Spain, in 1991. I received the Degrees in Telecommunication Engineering from University of Las Palmas de Gran Canaria (ULPGC), Spain, in 2014. Nowadays, I work as a programmer for The Singular Factory, Las Palmas (Spain) in the development of webs and mobile apps. In September, I am going to move to Reading, UK.
+
+</p><p>Specialties: Symfony, PHP, Android, IOS, Java, Web Development, Javascript, JQuery, CSS, HTML, Git, PhpStorm.</p>
+
+		<ul>
+			<li><a class="fb" href="#"></a></li>
+			<li><a class="twit" href="#"></a></li>
+			<li><a class="in" href="#"></a></li>
+<!--			<li><a class="drib" href="#"></a></li>-->
+			<li><a class="goog" href="#"></a></li>
+<!--			<li><a class="pin" href="#"></a></li>-->
+		</ul>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>MY SKILLS</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>IOS</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>PHP</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Android</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Html 5 / CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Java</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>Symfony 2</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 30 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+            <div class="col-md-4 edu-grid">
+				<!--<p>2012 - 2013</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
+						<h4>Oxford University</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>This is Photoshop's version Lorem Ipsum. 
+						Well, the way they make shows is, they make one show.</h5>
+					</div>
+				</div>-->
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2012 - 2013</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>DEGREE OF TELECOMMUNICATIONS ENGINEER</h3>
+						<h4>ULPGC</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Telecom engineers are often expected, as most engineers are, to provide the best solution possible for the lowest cost to the company.</h5>
+					</div>
+				</div>
+			</div>
+			
+			<!--<div class="col-md-4 edu-grid">
+				<p>2012 - 2013</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MASTER DEGREE OF COMPUTER SCIENCE</h3>
+						<h4>Oxford University</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>This is Photoshop's version Lorem Ipsum. 
+						Well, the way they make shows is, they make one show.</h5>
+					</div>
+				</div>
+			</div>-->
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>WORK EXPERIENCE</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-4 w-grid">
+<!--
+				<div class="work-grid">
+					<h3>2013 - Now</h3>
+					<div class="work-grid-info">
+						<h4>Google</h4>
+						<h5>Visual Designer</h5>
+						<p>Now that there is the Tec-9, a crappy spray gun from South Miami. 
+						This gun is advertised as the most popular gun in American crime. 
+						Do you believe that shit? It actually says that in the little book 
+						that comes with it: the most popular gun in</p>
+					</div>
+				</div>
+-->
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2013 - Now</h3>
+					<div class="work-grid-info">
+						<h4>The Singular Factory</h4>
+						<h5>Junior Programmer/Web Developer</h5>
+						<p>Now that there is the Tec-9, a crappy spray gun from South Miami. 
+						This gun is advertised as the most popular gun in American crime. 
+						Do you believe that shit? It actually says that in the little book 
+						that comes with it: the most popular gun in</p>
+					</div>
+				</div>
+			</div>
+<!--
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2013 - Now</h3>
+					<div class="work-grid-info">
+						<h4>Google</h4>
+						<h5>Visual Designer</h5>
+						<p>Now that there is the Tec-9, a crappy spray gun from South Miami. 
+						This gun is advertised as the most popular gun in American crime. 
+						Do you believe that shit? It actually says that in the little book 
+						that comes with it: the most popular gun in</p>
+					</div>
+				</div>
+			</div>
+-->
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+<div class="services-back"></div>
+
+<!--services-->
+<div class="services text-center" id="services">
+	<div class="container">
+		<div class="ser-info">
+			<h3>SERVICES</h3>
+		</div>
+		<div class="strip text-center"><img src="images/ser.png" alt=" "/></div>
+		<div class="ser-grids">
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagea"></div>
+				<h3>Programmer</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imageb"></div>
+				<h3>Testing</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imagec"></div>
+				<h3>IT Consulting</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="col-md-3 ser-grid">
+				<div class="ser-imaged"></div>
+				<h3>Development</h3>
+				<p>I'm gonna shoot you in the head
+				then and there. Then I'm gonna shoot 
+				that bitch in the kneecaps.</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!--portfolio-->
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>PORTFOLIO</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<p>You think water moves fast? You should see ice. It moves like it has a mind. 
+		Like it knows it killed the world once and got a taste for murder. After the avalanche, 
+		it took us a week to climb out. Now, I don't know exactly when we turned on each other, 
+		but I know that seven of us survived the slide and only five made it out. Now we took an 
+		oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, 
+		but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p>
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Naranja App</h4>
+							<p>Android App</p>
+							<div class="button"><a href="images/p1.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Islas Canarias Wallpapers</h4>
+							<p>Android App</p>
+							<div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Mi Playa de Famara</h4>
+							<p>Facebook page</p>
+							<div class="button"><a href="images/p3.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Apuntes ULPGC</h4>
+							<p>Web</p>
+							<div class="button"><a href="images/p4.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Contactos Abrigo</h4>
+							<p>Android App</p>
+							<div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="col-md-4 gallery-grid gallery1">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4>Project Name</h4>
+							<p>WEB DESIGN</p>
+							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
+						</div>
+				</div></a>
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+<!--process-->
+<div class="process text-center">
+	<div class="container">
+		<h3>PROCESS</h3>
+		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagea"></div>
+					<p>IDEA</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imageb"></div>
+					<p>CONCEPT</p>
+					<img class="pro-imga" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagec"></div>
+					<p>DESIGN</p>
+					<img class="pro-img" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imaged"></div>
+					<p>DEVELOP</p>
+					<img class="pro-imgb" src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagee"></div>
+					<p>TEST</p>
+					<img src="images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird">
+					<div class="process-imagef"></div>
+					<p>LAUNCH</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//process-->
+<div class="process-back"></div>
+<!--testimonials-->
+<div class="testimonials" id="testimonial">
+	<div class="container">
+		<h3>TESTIMONIAL</h3>
+		<div class="strip text-center"><img src="images/test.png" alt=" "/></div>
+			<!-- responsiveslides -->
+					<script src="js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							 // Slideshow 4
+							$("#slider3").responsiveSlides({
+								auto: true,
+								pager: false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+							$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+								}
+								});
+								});
+						</script>
+			<!-- responsiveslides -->
+			<div  id="top" class="callbacks_container">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/7.png" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>However unreal it may seem, we are connected, 
+									you and I. We're on the same curve, just on opposite ends.</p>
+									<h4>Sam L. J. - Pulp Fiction</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+						<li>
+							<div class="test-banner">
+								<img class="quoa" src="images/quo2.png" alt=""/>
+								<div class="test-left">
+									<img src="images/eee.png" alt=""/>
+								</div>
+								<div class="test-right">
+									<p>However unreal it may seem, we are connected, 
+									you and I. We're on the same curve, just on opposite ends.</p>
+									<h4>Sam L. J. - Pulp Fiction</h4>
+								</div>
+								<div class="clearfix"></div>
+								<img class="quo" src="images/quo1.png" alt=""/>
+							</div>
+						</li>
+					</ul>
+			</div>
+			
+	</div>
+</div>
+<!--testimonials-->
+<!--clients-->
+<div class="clients text-center">
+	<div class="container">
+		<h4>Clients</h4>
+		<div class="strip-line"></div>
+		<div class="client-grids">
+			<div class="col-md-4 cl-grid">
+				<div class="client-grid">
+					<img src="images/10.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-4 cl-grid">
+				<div class="client-grid">
+					<img src="images/11.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-4 cl-grid">
+				<div class="client-grid">
+					<img src="images/12.png" alt=""/>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--clients-->
+<div class="client-back"></div>
+<!--blog-->
+<!--<div class="blog" id="blog">
+	<div class="container">
+		<div class="blog-info text-center">
+			<h3>BLOG</h3>
+			<div class="strip text-center"><img src="images/blog.png" alt=" "/></div>
+		</div>
+		<div class="blog-grids">
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/a.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>	
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/b.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/c.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/a.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/b.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-text-info">
+				<div class="blog-grid">
+					<a href="single.html"><img src="images/c.jpg" alt=""/></a>
+					<div class="blog-text">
+						<a href="single.html">Nature is lethal but it doesn't hold a candle to man.</a>
+						<div class="stripa"></div>
+						<p>Your bones don't break, mine do. That's clear. Your cells react to bacteria 
+						and viruses differently than mine. You don't get sick, I do.</p>
+					</div>
+				
+					<div class="blog-para">
+							<ul>
+								<li><a href="#">3 Comments</a></li>
+								<li><a href="#">8 Share</a></li>
+							</ul>
+					</div>
+					<div class="blog-pos">
+						<p>5<span>May</span></p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>-->
+<!--//blog-->
+<div class="contact-back"></div>
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>CONTACT</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>Say Hi to Me</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>España</li>
+					<li>Canarias, Las Palmas </li>
+					<li>35500, Arrecife</li>
+					<li>+34636175744</li>
+					<li><a href="mailto:adolfoluzardocabrera@gmail.com">adolfoluzardocabrera@gmail.com</a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>Drop Me A Line</h3>
+				<div class="stripb"></div>
+				<form>
+					<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
+					<textarea type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="#">Download My Resume</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
