@@ -123,8 +123,8 @@ a.boxclose{
 	min-height:750px;
 }
 .banner-info{
-width:65%;
-margin: 141px auto 0 auto;
+width:100%;
+margin: 100px auto 0 auto;
 }
 .banner-right h1{
 font-size:34px;
@@ -142,7 +142,7 @@ letter-spacing: 15px;
 .banner-right a{
 text-decoration:none;
 color:#ffffff;
-font-size:16px;
+font-size:12px;
 font-weight:500;
 padding:16px 20px;
 border:2px solid #fff;
@@ -1946,7 +1946,7 @@ border:none;
 	  font-size: 45px;
 	  }
 	.banner-right a {
-	  font-size: 14px;
+	  font-size: 12px;
 	  padding: 12px 20px;
 	}  
 	.banner {
