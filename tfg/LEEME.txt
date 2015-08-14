@@ -1,0 +1,3 @@
+Este CD contiene el TFG de Adolfo Luzardo Cabrera para poder ver su contenido se recomienda abir el archivo index.html que se encuentra en su interior.
+
+Info: Se han omitido los acentos en todos los nombres de archivos y carpetas de este CD, por razones de compatibilidad.

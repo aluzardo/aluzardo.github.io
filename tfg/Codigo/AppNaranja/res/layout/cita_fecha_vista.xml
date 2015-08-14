@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="7"
+    android:background="#ff8000"
+    android:orientation="vertical"
+    tools:context=".PrincipalVistaActivity" >
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="20dp"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:layout_marginTop="20dp"
+     android:layout_weight="2"
+     android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/elige_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/elige_dia"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/dias_disponibles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="20dp"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:layout_marginTop="20dp"
+     android:layout_weight="2"
+     android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/elige_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/elige_hora"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/horas_disponibles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="2"
+     android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/textohorario"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_gravity="center"
+         android:layout_margin="20dp"
+         android:text="@string/horario"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#FFFFFF" />
+    
+ </LinearLayout>
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/miboton"
+        android:text="@string/siguiente"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF9000"
+        android:textSize="20sp" />
+
+</LinearLayout>
+</LinearLayout>

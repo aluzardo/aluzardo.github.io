@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff8000"
+    android:orientation="vertical"
+    tools:context=".PrincipalVistaActivity" >
+
+    <TextView
+        android:id="@+id/mis_citas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/mis_citas"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="70sp" />
+
+    <ListView
+        android:id="@+id/lista_citas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:divider="#ff8000"
+        android:dividerHeight="15dp" >
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Naranja App</string>
+    <string name="peluquerias_naranja">Naranja Hairdressers</string>
+    <string name="donde_estamos">Where are we?</string>
+    <string name="pedir_cita">Schedule an  appointment</string>
+    <string name="mis_citas">My appointments</string>
+    <string name="menu_salir">Exit</string>
+    <string name="menu_configuracion">Settings</string>
+    <string name="menu_ayuda">Help</string>
+    <string name="menu_info">Info</string>
+    <string name="elige_peluqueria">Select one hairdresser:</string>
+    <string name="descripcion_peluqueria">Descripcion de la peluquería</string>
+    <string name="ver_en_mapa">View on map</string>
+    <string name="ver_todas_peluquerias">View all hairdressers</string>
+    <string name="ver_peluqueria_mas_cercana">View nearest hairdresser</string>
+    <string name="nombre">Enter your name</string>
+    <string name="hombre">Male</string>
+    <string name="mujer">Female</string>
+    <string name="siguiente">Next</string>
+    <string name="corte_de_pelo">Corte de pelo - 5€</string>
+    <string name="corte_de_flecos">Corte de flecos - 5€</string>
+    <string name="manicura">Manicura - 5€</string>
+    <string name="pedicura">Pedicura - 5€</string>
+    <string name="mechas">Mechas - 5€</string>
+    <string name="tinte">Tinte - 5€</string>
+    <string name="elige_servicio">Choose service: </string>
+    <string name="total">Total: </string>
+    <string name="confirmar_reserva">Confirm</string>
+    <string name="cancelar_reserva">Cancel</string>
+    <string name="descripcion_principal">INGLESDesde que inauguramos nuestro primer salón Naranja en Lanzarote a principios de 2011 nos convertimos, automáticamente, en la peluquería unisex más económica de España. Hoy, dos años después, contamos con 6 salones distribuidos entre Las Palmas y Lanzarote y más de 35 empleados dispuestos a atenderle.</string>
+    <string name="peluqueria_lanzarote">C/ Fajardo. Nº37 - Local E. \n (Cruce C/ Fajardo con C/ La Inés) \n Frente a gasolinera de Fajardo. 35.500 Arrecife (LANZAROTE)\n Telf.: 928 802 802. </string>
+     <string name="peluqueria_triana">Calle Viera y Clavijo, nº 19, 35.002 \n Las Palmas. \n Las Palmas de Gran Canaria. \n Frente a La Oca -Tienda de decoración. \n Telf.: 928 360 271. </string>
+    <string name="elige_dia">Select one day: </string>
+    <string name="elige_hora">Select one hour: </string>
+     <string name="preferencia1">Languages</string>
+    <string name="preferencia2">GPS</string>
+
+
+</resources>

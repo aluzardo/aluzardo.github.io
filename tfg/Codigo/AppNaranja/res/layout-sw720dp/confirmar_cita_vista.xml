@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff8000"
+    android:layout_weight="8"
+    android:orientation="vertical"
+    tools:context=".PrincipalVistaActivity" >
+
+    <TextView
+        android:id="@+id/mi_cita_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/mi_cita"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/mi_cita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_weight="7.5"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/confirmar_reserva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/miboton"
+        android:text="@string/confirmar_reserva"
+        android:textColor="#FF9000"
+        android:textSize="40sp" />
+
+</LinearLayout>

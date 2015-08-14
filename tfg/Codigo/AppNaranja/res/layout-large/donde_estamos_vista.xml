@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="6"
+    android:background="#ff8000"
+    android:orientation="vertical"
+    tools:context=".PrincipalVistaActivity" >
+
+    <TextView
+        android:id="@+id/texto_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.5"
+        android:text="@string/elige_peluqueria"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <Spinner
+        android:id="@+id/peluquerias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.5" />
+
+    <ImageView
+        android:id="@+id/imagen_peluqueria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3" />
+
+    <TextView
+        android:id="@+id/descripcion_peluqueria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1.5"
+        android:text="@string/descripcion_peluqueria"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/ver_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/miboton"
+        android:textColor="#FF9000"
+        android:textSize="20sp"
+        android:text="@string/ver_en_mapa" 
+        android:layout_margin="20dp"
+        android:layout_weight="0.5"/>
+
+</LinearLayout>

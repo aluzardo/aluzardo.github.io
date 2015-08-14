@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="7"
+    android:background="#ff8000"
+    android:orientation="vertical"
+    tools:context=".PrincipalVistaActivity" >
+    
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/peluquerias_naranja"
+        android:src="@drawable/logo_naranja" />
+
+     </LinearLayout>
+     
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/presentacion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/miboton"
+        android:text="@string/peluquerias_naranja"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF9000"
+        android:textSize="40sp" />
+
+</LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/donde_estamos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/miboton"
+        android:text="@string/donde_estamos"
+        android:textColor="#FF9000"
+        android:textSize="40sp" />
+
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/pedir_cita"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/miboton"
+        android:text="@string/pedir_cita"
+        android:textColor="#FF9000"
+        android:textSize="40sp" />
+
+</LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/mis_citas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/miboton"
+        android:text="@string/mis_citas"
+        android:textColor="#FF9000"
+        android:textSize="40sp" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/patrocinadores"
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="0.83"
+            android:adjustViewBounds="true"
+            android:background="#ff8000"
+            android:contentDescription="@string/peluquerias_naranja"
+            android:scaleType="fitXY"
+            android:src="@drawable/patrocinadores" />
+
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="0.77"
+            android:adjustViewBounds="true"
+            android:background="#ff8000"
+            android:contentDescription="@string/peluquerias_naranja"
+            android:src="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="50dp"
+            android:layout_weight="0.44"
+            android:adjustViewBounds="true"
+            android:background="#ff8000"
+            android:contentDescription="@string/peluquerias_naranja"
+            android:src="@drawable/twitter" />
+
+    </LinearLayout>
+
+</LinearLayout>

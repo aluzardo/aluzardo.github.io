@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+    <ListPreference android:key="idioma"
+       android:entries="@array/idiomas"
+       android:entryValues="@array/valoresDeIdiomas"
+       android:title="@string/preferencia1"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="gps"
+        android:title="@string/preferencia2">
+    </CheckBoxPreference>
+   
+
+</PreferenceScreen>

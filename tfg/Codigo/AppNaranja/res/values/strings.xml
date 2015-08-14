@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppNaranja</string>
+    <string name="peluquerias_naranja">Peluquerías Naranja</string>
+    <string name="donde_estamos">¿Dónde estamos?</string>
+    <string name="pedir_cita">Pedir Cita</string>
+    <string name="mis_citas">Mis citas</string>
+    <string name="mi_cita">Mi cita</string>
+    <string name="confirmar_cita">Confirmar Cita</string>
+    <string name="presentacion">Presentacion</string>
+    <string name="menu_salir">Salir</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="menu_info">Info</string>
+    <string name="elige_peluqueria">Elige una peluquería:</string>
+    <string name="descripcion_peluqueria">Descripcion de la peluquería</string>
+    <string name="ver_en_mapa">Ver en mapa</string>
+    <string name="ver_todas_peluquerias">Ver todas</string>
+    <string name="ver_peluqueria_mas_cercana">Peluquería más cercana</string>
+    <string name="nombre">Nombre:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="introduce_nombre">Introduce tu nombre</string>
+    <string name="introduce_telefono">Introduce tu telefono</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="corte_de_pelo">Corte de pelo - 5€</string>
+    <string name="corte_de_flecos">Corte de flecos - 5€</string>
+    <string name="manicura">Manicura - 5€</string>
+    <string name="pedicura">Pedicura - 5€</string>
+    <string name="mechas">Mechas - 5€</string>
+    <string name="tinte">Tinte - 5€</string>
+    <string name="elige_servicio">Elige servicio: </string>
+    <string name="total">Total: </string>
+    <string name="confirmar_reserva">Confirmar reserva</string>
+    <string name="cancelar_reserva">Cancelar reserva</string>
+    <string name="descripcion_principal">Desde que inauguramos nuestro primer salón Naranja en Lanzarote a principios de 2011 nos convertimos, automáticamente, en la peluquería unisex más económica de España. Hoy, tres años después, contamos con 6 salones distribuidos entre Las Palmas y Lanzarote y más de 35 empleados dispuestos a atenderle.</string>
+    <string name="peluqueria_lanzarote">C/ Fajardo. Nº37 - Local E. \n (Cruce C/ Fajardo con C/ La Inés) \n Frente a gasolinera de Fajardo. 35.500 Arrecife (LANZAROTE)\n Telf.: 928 802 802. </string>
+     <string name="peluqueria_triana">Calle Viera y Clavijo, nº 19, 35.002 \n Las Palmas. \n Las Palmas de Gran Canaria. \n Frente a La Oca -Tienda de decoración. \n Telf.: 928 360 271. </string>
+    <string name="elige_dia">Elige un día: </string>
+    <string name="elige_hora">Elige la hora: </string>
+     <string name="preferencia1">Idiomas </string>
+    <string name="preferencia2">GPS</string>
+    <string name="horario">Horario ininterrumpido de todos nuestros salones de Lunes a Sábado de 09.00 a 20.00 horas</string>
+
+
+</resources>

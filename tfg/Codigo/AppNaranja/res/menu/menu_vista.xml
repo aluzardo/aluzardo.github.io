@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item
+        android:id="@+id/menu_salir"
+        android:orderInCategory="100"
+        android:title="@string/menu_salir"/>
+     <item
+        android:id="@+id/menu_configuracion"
+        android:orderInCategory="100"
+        android:title="@string/menu_configuracion"/>
+     <item
+        android:id="@+id/menu_ayuda"
+        android:orderInCategory="100"
+        android:title="@string/menu_ayuda"/>
+     <item
+        android:id="@+id/menu_info"
+        android:orderInCategory="100"
+        android:title="@string/menu_info"/>
+     
+
+</menu>

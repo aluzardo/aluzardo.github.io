@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="7"
+    android:background="#ff8000"
+    android:orientation="vertical"
+    tools:context=".PrincipalVistaActivity" >
+
+    <TextView
+        android:id="@+id/texto_mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/mibotoncuadrado"
+        android:text="@string/elige_peluqueria"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF8800" />
+
+    <fragment
+        android:id="@+id/mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7.45"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ver_cercana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/miboton"
+            android:text="@string/ver_peluqueria_mas_cercana"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF9000" />
+
+        <Button
+            android:id="@+id/ver_mapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/miboton"
+            android:text="@string/ver_todas_peluquerias"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF9000" />
+
+    </LinearLayout>
+
+</LinearLayout>

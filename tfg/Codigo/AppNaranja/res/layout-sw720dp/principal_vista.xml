@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="7"
+    android:background="#ff8000"
+    android:orientation="vertical"
+    tools:context=".PrincipalVistaActivity" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/logo_naranja" />
+
+    <TextView
+        android:id="@+id/descripcion_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="4.60"
+        android:text="@string/descripcion_principal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom" >
+
+        <ImageButton
+            android:id="@+id/patrocinadores"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_alignBaseline="@+id/facebook"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:adjustViewBounds="true"
+            android:background="#ff8000"
+            android:scaleType="fitXY"
+            android:src="@drawable/patrocinadores" />
+
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_toRightOf="@+id/patrocinadores"
+            android:adjustViewBounds="true"
+            android:background="#ff8000"
+            android:src="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@+id/patrocinadores"
+            android:layout_toRightOf="@+id/facebook"
+            android:adjustViewBounds="true"
+            android:background="#ff8000"
+            android:src="@drawable/twitter" />
+
+    </RelativeLayout>
+
+</LinearLayout>
