@@ -360,11 +360,7 @@ border-bottom: 2px solid #c3c3c3;
 .edu-grid{
 position:relative;
 }
-.edu-grid img{
-position:absolute;
-top: 25%;
-left: 40%;
-}
+
 /*--//education--*/
 /*--work--*/
 .work-info h3{
